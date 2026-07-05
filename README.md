@@ -22,7 +22,7 @@ A REST API built with **FastAPI**, **Pandas**, and **Seaborn** that cleans messy
 
 ```bash
 pip install fastapi uvicorn pandas numpy matplotlib seaborn
-uvicorn main:app --reload
+uvicorn SalesAnalyticsDashboardAPI:app --reload
 ```
 
 Visit `http://127.0.0.1:8000/docs` for interactive Swagger documentation.
